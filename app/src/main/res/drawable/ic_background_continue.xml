@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="2dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="2dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="2dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="2dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="2dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="50dp"/>
+            <padding android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <gradient
+                android:startColor="@color/colorDarkRed"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:angle="0" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:centerColor="@color/colorDarkRed"
+                android:endColor="@color/colorDarkRed"
+                android:startColor="@color/colorDarkRed" />
+            <corners android:radius="50dp"/>
+        </shape>
+    </item>
+</layer-list>
+
+    <!--
+    * for more visit http://materialuiux.com
+    -->

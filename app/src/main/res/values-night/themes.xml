@@ -1,0 +1,16 @@
+<resources>
+
+<style name="Theme.Lacuccina.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+
+<style name="RadioButtonTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+    <item name="android:colorControlNormal">#b5b5b5</item>
+    <item name="android:colorControlActivated">#7168c9</item>
+    <item name="android:colorControlHighlight">#8885B1</item>
+    <item name="android:textColorPrimaryDisableOnly">#b5b5b5</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+</style>
+
+</resources>

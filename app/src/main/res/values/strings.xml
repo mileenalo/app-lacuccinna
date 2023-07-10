@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lacuccina</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="shop">SHOP</string>
+    <string name="collection">COLLECTIONS</string>
+    <string name="blog">BLOG</string>
+    <string name="stockists">STOCKISTS</string>
+    <string name="about">ABOUT</string>
+    <string name="help">HELP</string>
+    <string name="settings">SETTINGS</string>
+    <string name="new_arrivals">MENU</string>
+    <string name="address">Address</string>
+    <string name="payment">Payment</string>
+    <string name="cart">Carrinho</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="shipping">Shipping</string>
+    <string name="total">Total</string>
+    <string name="orders">Pedidos</string>
+    <string name="Loading">loading</string>
+    <string name="restaurant">La Cuccina</string>
+    <string name="callWaiter">Abrir Pedidos</string>
+    <string name="menu">ABRIR MENU</string>
+    <string name="back">VOLTAR</string>
+    <string name="profile">Profile</string>
+    <string name="signout">Sign Out</string>
+    <string name="Wallet">Wallet</string>
+    <string name="waiterMessage">Feito!\n Um garçom foi acionado e ele irá até sua mesa te atender!</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

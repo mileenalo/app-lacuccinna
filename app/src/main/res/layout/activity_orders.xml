@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".OrdersActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:theme="@style/Theme.Lacuccina.AppBarOverlay">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <fontsproject.Raleway_Bold_TextView
+        android:id="@+id/id_Title_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:layout_margin="16dp"
+        android:text="@string/orders"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="28sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recycler_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_below="@+id/id_Title_tx" />
+
+    <Button
+        android:id="@+id/id_continue"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/ic_background_continue"
+        android:paddingTop="4dp"
+        android:text="MENU"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

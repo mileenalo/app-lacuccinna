@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Lacuccina" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_left_arrow</item>
+    </style>
+
+    <style name="Theme.Lacuccina.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Lacuccina.fullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="StyleProgressBar" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+    <style name="Theme.Lacuccina.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Lacuccina.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RadioButtonTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:colorControlNormal">#b5b5b5</item>
+        <item name="android:colorControlActivated">#7168c9</item>
+        <item name="android:colorControlHighlight">#8885B1</item>
+        <item name="android:textColorPrimaryDisableOnly">#b5b5b5</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+</resources>

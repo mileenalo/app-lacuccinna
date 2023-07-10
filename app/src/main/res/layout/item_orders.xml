@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="133dp"
+    android:layout_margin="10dp"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/id_check"
+        android:layout_toLeftOf="@+id/id_check"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <fontsproject.Raleway_Regular_TextView
+            android:id="@+id/id_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedido #756444"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="18sp" />
+
+        <fontsproject.Raleway_Regular_TextView
+            android:id="@+id/id_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Status: Em preparo"
+            android:textColor="@color/thirdTextColor"
+            android:textSize="16sp" />
+
+        <fontsproject.Raleway_Regular_TextView
+            android:id="@+id/id_qtd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Quantidade: 1"
+            android:textColor="@color/thirdTextColor"
+            android:textSize="16sp" />
+
+        <fontsproject.Raleway_Regular_TextView
+            android:id="@+id/id_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Valor: R$29,00"
+            android:textColor="@color/colorDarkRed"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RadioButtonTheme"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Ver"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="#f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</RelativeLayout>
